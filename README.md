@@ -22,7 +22,7 @@ The data should be in a separate folder called 'data' inside the project folder.
 
 The details of preprocessing are as follows:
 #### 1- HAR
-After downloading the dataset and extracting the HAR dataset file, please move it to the data_preprocessing/HAR/ directory. 
+After downloading the dataset and extracting the HAR dataset file, please move it to the 'data_preprocessing/HAR/' directory. 
 Subsequently, run 'preprocess_har.py' script, which will generate the ‘train.pt’, ‘val.pt’, and ‘test.pt’ files. 
 These files will be automatically saved in the data/HAR folder.
 
