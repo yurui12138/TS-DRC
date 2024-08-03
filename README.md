@@ -21,19 +21,25 @@ We used four public datasets in this study, the datasets can be downloaded from 
 The data should be in a separate folder called 'data' inside the project folder. Inside that folder, there should be separate subfolders for each dataset. Each subfolder should contain 'train.pt', 'val.pt', and 'test.pt' files. The structure of the data files should be in dictionary form as follows: train.pt = {'samples': data, 'labels': labels}, and similarly for val.pt and test.pt.
 
 The details of preprocessing are as follows:
-#### 1- HAR dataset
-When you download the dataset and extract the zip file, you will find the data in a folder named
-`UCI HAR Dataset`. Place it in `data_preprocessing/har/` folder and run `preprocess_har.py` file.
+#### 1- HAR
+After downloading the dataset and extracting the HAR dataset file, please move it to the data_preprocessing/HAR/ directory. 
+Subsequently, run 'preprocess_har.py' script, which will generate the ‘train.pt’, ‘val.pt’, and ‘test.pt’ files. 
+These files will be automatically saved in the data/HAR folder.
 
-#### 2- ESP:
-download the data file in the `data_files` folder and run the preprocessing scripts.
+#### 2- ESP
+After downloading the dataset and extracting the ESP dataset file, please move it to the 'data_preprocessing/ESP/' directory. 
+Subsequently, run 'preprocess_esp.py' script, which will generate the ‘train.pt’, ‘val.pt’, and ‘test.pt’ files. 
+These files will be automatically saved in the 'data/ESP' folder.
 
-#### 3- SWAT and WADI datasets:
-Create a folder named `data_files` in the path `data_preprocessing/swat/` or `data_preprocessing/wadi/`.
-Download the dataset files and place them in this folder. 
+#### 3- SWAT
+After downloading the dataset and extracting the SWAT dataset file, please move it to the 'data_preprocessing/SWAT/' directory. 
+Subsequently, run 'preprocess_swat.py' script, which will generate the ‘train.pt’, ‘val.pt’, and ‘test.pt’ files. 
+These files will be automatically saved in the 'data/SWAT' folder.
 
-Run the file `preprocess_swat.py` or `preprocess_wadi.py` to generate the files and it will automatically place
-them in the `data/SWAT` and `data/WADI` folder.
+#### 4- WADI
+After downloading the dataset and extracting the WADI dataset file, please move it to the 'data_preprocessing/WADI/' directory. 
+Subsequently, run 'preprocess_wadi.py' script, which will generate the ‘train.pt’, ‘val.pt’, and ‘test.pt’ files. 
+These files will be automatically saved in the 'data/WADI' folder.
 
 
 ### Configurations
